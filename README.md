@@ -29,15 +29,15 @@ This module has been tested to work (and look terrible) out of the box with the
 
  * The knowledge base is designed to operate in a hierarchy similar to the below:
 
-- Knowledge Base root page
-  - Category 1
-    - Article
-    - Category 1.1
-      - Article
-    - Category 1.2
-      - Article
-  - Category 2
-    - Article
+ * Knowledge Base root page
+  * Category 1
+		* Article
+		* Category 1.1
+			* Article
+		* Category 1.2
+			* Article
+	* Category 2
+		* Article
 
 If you want to arrange your knowledge base into a slightly different structure 
 (for instance, without categories) you may need to do a bit of re-coding. Submit 
@@ -48,7 +48,5 @@ a feature request if it doesn't work the way you want or expected it to.
 You can disable ratings by using the following code in your _config.php
 
 ```php
-
 KnowledgeBaseArticle::$rating_enabled = false;
-
 ```
