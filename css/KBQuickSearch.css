@@ -1,0 +1,27 @@
+
+.ArticleSearch label
+{
+    display: none;
+}
+.ArticleSearch #SearchText input.text
+{
+    width: 170px;
+}
+.ArticleSearch .Actions,
+.ArticleSearch .action
+{
+    display: none;
+}
+
+
+.ui-autocomplete
+{
+    z-index: 10 !important;
+}
+.ui-autocomplete-loading {
+    background: transparent none;
+}
+.ui-autocomplete .ac-desc
+{
+    color: rgb(10, 10, 250);
+}

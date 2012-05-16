@@ -1,0 +1,119 @@
+/*********************/
+/** jRating CSS **/
+/*********************/
+
+/**Div containing the color of the stars */
+.jRatingAverage {
+    background-color:#f62929;
+    position:relative;
+    top:0;
+    left:0;
+    z-index:2;
+    height:100%;
+}
+.jRatingColor {
+    background-color:#f4c239; /* bgcolor of the stars*/
+    position:relative;
+    top:0;
+    left:0;
+    z-index:2;
+    height:100%;
+}
+
+/** Div containing the stars **/
+.jStar {
+    position:relative;
+    left:0;
+    z-index:3;
+}
+
+/** P containing the rate informations **/
+p.jRatingInfos {
+    position:		absolute;
+    z-index:9999;
+    background:	transparent url('../images/Rating/bg_jRatingInfos.png') no-repeat;
+    color:			#FFF;
+    display:		none;
+    width:			91px;
+    height:			29px;	
+    font-size:16px;
+    text-align:center;
+    padding-top:5px;
+}
+p.jRatingInfos span.maxRate {
+    color:#c9c9c9;
+    font-size:14px;
+}
+
+.RatingControl 
+{
+    padding: 0 0 20px 0;
+}
+
+
+/* Static star ratings */
+.StaticRating,
+.StaticRating:after
+{
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    background-image: url('../images/Rating/small.png');
+    background-repeat: repeat-x;
+    background-position: top left;
+    height: 10px;
+}
+.StaticRating
+{
+    width: 60px;
+    position: relative;
+    background-color: white;
+}
+.StaticRating:after
+{
+    left: 0;
+    top: 0;
+    content: '.';
+    position: absolute;
+    background-color: #f4c239;
+}
+.StaticRating.Rating_1:after
+{
+    width: 6px;
+}
+.StaticRating.Rating_2:after
+{
+    width: 12px;
+}
+.StaticRating.Rating_3:after
+{
+    width: 18px;
+}
+.StaticRating.Rating_4:after
+{
+    width: 24px;
+}
+.StaticRating.Rating_5:after
+{
+    width: 30px;
+}
+.StaticRating.Rating_6:after
+{
+    width: 36px;
+}
+.StaticRating.Rating_7:after
+{
+    width: 42px;
+}
+.StaticRating.Rating_8:after
+{
+    width: 48px;
+}
+.StaticRating.Rating_9:after
+{
+    width: 54px;
+}
+.StaticRating.Rating_10:after
+{
+    width: 60px;
+}
